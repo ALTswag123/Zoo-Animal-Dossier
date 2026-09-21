@@ -1,0 +1,23 @@
+body {
+    background-color: beige;
+    margin: 1rem;
+}
+
+nav.nav-bar {
+    background-color: burlywood;
+}
+
+nav.nav-bar a {
+    background-color: rgb(222, 178, 119);
+    color: honeydew;
+    padding: 1em;
+    display: inline-block;
+    font-size: 1.5rem;
+    font-family: sans-serif;
+    text-decoration: none;
+    transition: all ease 300ms;
+}
+
+nav.nav-bar a:hover {
+    background-color: rgb(218, 186, 145);
+}
