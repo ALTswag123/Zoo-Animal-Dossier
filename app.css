@@ -1,23 +1,29 @@
 body {
-    background-color: beige;
+    background-color: #fef3e9;
     margin: 1rem;
 }
 
 nav.nav-bar {
-    background-color: burlywood;
+    background-color: #f68b1f;
 }
 
 nav.nav-bar a {
-    background-color: rgb(222, 178, 119);
-    color: honeydew;
+    background-color: #220407;
+    color: #ffff;
     padding: 1em;
     display: inline-block;
     font-size: 1.5rem;
     font-family: sans-serif;
     text-decoration: none;
     transition: all ease 300ms;
+    border-radius: 1rem;
+    margin: 0.3rem;
 }
 
 nav.nav-bar a:hover {
-    background-color: rgb(218, 186, 145);
+    background-color: rgb(221, 182, 130);
+}
+
+h3 {
+    font-family: sans-serif;
 }
